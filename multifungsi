@@ -1,0 +1,249 @@
+#!bin/bash
+clear
+echo "LINK PW=https:https://www.mediafire.com/download/fakfqbmrqqvzjbr"
+read -p "Enter Untuk Lanjut"
+echo "Silahkan"
+echo " _  _ ____ ____ _ ____ _ "
+echo " |  | |___ |__/ | |___ | "
+echo "  \/  |___ |  \ | |    | "
+echo "                         "
+
+
+user="u7KMzEC0Qg7Sbi5GPNVuGzbjLWmMbbSkmmPCo2X3on9pzJPWL"
+while [ "$Password" !=  "$user" ]
+do
+read -p "Masukkan Password :" Password
+done
+clear	
+sleep 1
+echo
+figlet SJ | lolcat
+echo " o       o     o o                        o-O-o          o-o                   o  "
+echo " |       |     | |                          |           |              o       |  "
+echo " o   o   o o-o | |  o-o o-o o-O-o o-o       |   o-o      o-o   o-o o-o   o-o  -o- "
+echo "  \ / \ /  |-' | | |    | | | | | |-'       |   | |         | |    |   | |  |  |  "
+echo "   o   o   o-o o o  o-o o-o o o o o-o       o   o-o     o--o   o-o o   | O-o   o  "
+echo "                                                                         |        "
+echo "                                                                         o        "
+echo ""
+echo "   O                       o-o  o--o  "
+echo "  / \                     |     |   | "
+echo " o---oo-O-o o-O-o  oo o-o  o-o  O--o  "
+echo " |   || | | | | | | | |       | |     "
+echo " o   oo o o o o o o-o-o   o--o  o     "
+echo "                                      "
+echo "                                      "
+
+
+echo " v1.0"
+echo " WELLCOME TO TOOLS MULTIFUNGSI"
+echo "Welcome To Script Ammar B.N"
+echo "1.           /exit)         "
+echo "2.           (ya)         "
+read -p "Agar Bisa Masuk Bot Akan Melakukan Penginstalan : " instal
+if [[ $instal == exit ]]; then
+clear
+login
+fi
+
+if [[ $instal == ya ]]; then
+clear
+      pkg install bash
+      pkg install git
+      pkg install ruby
+      gem install lolcat
+clear
+fi		      
+read -p "penginstala selesai enter untuk lanjut"
+								
+sleep 2
+echo " o       o     o o                        o-O-o          o-o                   o  "
+echo " |       |     | |                          |           |              o       |  "
+echo " o   o   o o-o | |  o-o o-o o-O-o o-o       |   o-o      o-o   o-o o-o   o-o  -o- "
+echo "  \ / \ /  |-' | | |    | | | | | |-'       |   | |         | |    |   | |  |  |  "
+echo "   o   o   o-o o o  o-o o-o o o o o-o       o   o-o     o--o   o-o o   | O-o   o  "
+echo "                                                                         |        "
+echo "                                                                         o        "
+echo ""
+echo "   O                       o-o  o--o  "
+echo "  / \                     |     |   | "
+echo " o---oo-O-o o-O-o  oo o-o  o-o  O--o  "
+echo " |   || | | | | | | | |       | |     "
+echo " o   oo o o o o o o-o-o   o--o  o     "
+echo "                                      "
+echo "                                      "
+
+echo "Menu Tools :"		
+echo "[1], Satbilkan jaringan"
+echo "[2], spamcall"
+echo "[3], Exit Tools"
+echo "[4], DDOS virus"
+echo "[5], Trojan virus"
+echo "[6], Laporkan Bug"
+echo "[7], Hack WHATSAPP"
+echo "[8], Lacak Ip"
+echo "[9], Cmatrix Hack"
+echo "[10], Semua"
+echo
+echo "Silakan Masukkan Nomor"
+read -p "Masukkan Pilihan Anda : " pil
+if [[ $pil == 1 ]]; then
+
+clear
+read -p "untuk menjalankan Tools Ini klik enter"
+
+read -p "Agar Tools Berjalan bot kami akan melakukan penginstalan Terlebih Dahulu Enter untuk lanjut"
+clear
+     pkg update && pkg upgrade
+
+read -p "Penginstalan Selesai,Enter untuk lanjut ke Tools"
+clear
+echo "Stabilkan jaringan by Ammar"
+read -p "Masukkan Nomor yg ingin di stabilkan : " nomor
+read -p "Menstabilkan Nomor $nomor enter untuk memulai"
+read -p "Enter lagi untuk memulai"
+ping -s1000 1.1.1.1
+fi
+
+if [[ $pil == 2 ]]; then
+clear
+echo 'Masukkan nomor awalan 8××××××××××'
+read -p "Masukkan No Target : " nomor
+figlet Untuk Menyepam Dibutuhkan Connection Internet | lolcat
+echo 'Sabar Masih Load Tod'
+echo '.10%'
+
+echo '..20%'
+
+echo '...30%'
+
+echo '....40%'
+
+echo '.....50%'
+
+echo '......60%'
+
+echo '.......70%'
+
+echo '........80%'
+
+echo '.........90%'
+
+echo '..........100%'
+echo 'clear tod'
+echo 'Sabar tod:v'
+echo 'Lagi nyepam'
+
+link="https://id.jagreward.com/member/verify-mobile/$nomor"
+curl -s $link
+figlet Spam Sukses | lolcat
+echo 'Terimakasih Telah Menggunakan Tools Ini'
+echo 'Jangan Lupa Balik Lagi Tod'
+fi
+								
+if [[ $pil == 3 ]]; then
+clear
+login
+exit
+fi
+
+if [[ $pil == 4 ]]; then
+clear
+figlet DDOS.ABN | lolcat -a -d 20
+echo "untuk berhenti ketik ctrl+c"
+read -p "Masukkan Ip Target : " ip
+read -p "Masukkan Port : " port
+read -p "Masukkan Jumlah Paket : " paket
+
+while [[ true ]]; do
+echo "Mengirim Paket $Paket ke IP $ip Port $port"
+done
+fi
+
+if [[ $pil == 5 ]]; then
+clear
+figlet Trojan
+echo "untuk berhenti ketik ctrl+c"
+read -p "Masukkan Nomor Target : " nomor
+
+while [[ true ]]; do
+echo "Mengirim Virus Trojan Pada Nomor $nomor"
+done
+fi
+
+if [[ $pil == 6 ]]; then
+read -p "tools apa yg rusak : " rusak
+read -p "Mohon Maaf atas kesalahan kalau ada waktu akan saya perbaiki,untuk lanjut klik enter"
+echo "SEE YOU THE NEXT SCRIPT/TOOLS"
+
+echo untuk kembali ke script ketik bash multifungsi
+echo untuk Exit Tools ketik login
+echo untuk keluar ketik exit
+fi
+
+if [[ $pil == 7 ]]; then
+clear
+echo "«~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~»"
+echo " Author : Ammar"
+echo " YT     : AmmarSP"
+echo "«~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~»"
+echo "Warning!!!Jika Terjadi Apa Apa Bukan Salah Author nya"
+echo "wellcome to Script Whatshack"
+echo
+clear
+read -p "Masukkan Nomor yg akan Di Hack : " nomor
+echo "jika ada tulisan di enter aja biar pemrogramannya berhasil"
+read -p "sedang memverifikasi nomor telpon"
+read -p "Memindai code....."
+read -p "Harap Sabar...."
+read -p "Memuat...."
+read -p "code : Berhasil Di pindai,klik enter untuk lanjut"
+echo "Code=351-490"
+echo "Terima Kasih Telah Menggunakan Tools Ini"
+fi
+
+if [[ $pil == 8 ]]; then
+clear
+echo "«~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~»"
+echo " Author : Ammar"
+echo " YT     : AmmarSP"
+echo "«~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~»"
+echo "Warning!!!Jika Terjadi Apa Apa Bukan Salah Author nya"
+echo "Wellcome To Tools Lacak ip"
+echo
+read -p "Masukkan Nomor Yang ingin di lacak Ip Nya : " nomor
+read -p "memverifikasi Nomor....."
+read -p "Harap Sabar...."
+read -p "Sabar Anjing:v"
+read -p "Awoakwok Mampus kenapa gk di enter dari tadi jadi lama kan:v,goblok"
+echo "ip=159.89.456.1"
+fi
+
+if [[ $pil == 9 ]]; then
+clear
+    pkg update && pkg upgrade
+    pkg install cmatrix
+    pkg install wget
+read -p "the program has been upgraded, and wget, cmatrix have been installed"
+read -p "Masukkan Nomor Telepon Anda : " telep
+read -p "Cmatrix Program have been installed,silakan enter"
+fi
+
+if [[ $pil == 10 ]]; then
+clear
+echo
+echo
+echo
+user="u7KMzEC0Qg7Sbi5GPNVuGzbjLWmMbbSkmmPCo2X3on9pzJPWL"
+while [ "$Password" !=  "$user" ]
+do
+read -p "Masukkan Password :" Password
+done
+read -p "Kalo Semua Ya gk Bisa Lah Bego:v,enter untuk lanjut"
+read -p "GOOD BYE👋 enter untuk lanjut"
+clear
+     pkg update && pkg upgrade
+clear
+login
+exit
+fi
